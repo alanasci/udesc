@@ -3,22 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lista1_1;
+package lista1_2;
 
 /**
  *
  * @author udesc
  */
-public class Home {
+public class Lista12 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Geladeira minhaGeladeira = new Geladeira();
-        
-        //minhaGeladeira.congelador = new Congelador();
-        minhaGeladeira.imprimirElementos();
-    }   
+        ArCondicionado meuArCondicionado = new ArCondicionado();
+    }
+    
+    meuArCondicionado.imprimirElementos();
     
 }
