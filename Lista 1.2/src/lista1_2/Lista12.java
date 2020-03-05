@@ -15,9 +15,11 @@ public class Lista12 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         ArCondicionado meuArCondicionado = new ArCondicionado();
+        
+        meuArCondicionado.imprimirElementos();      
+        
     }
-    
-    meuArCondicionado.imprimirElementos();
     
 }
